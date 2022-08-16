@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding-top: 80px;
+}
+
+/* Menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    padding: 25px;
+    font-weight: bold;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(92, 92, 92);
+}
+
+.menu a {
+    color: white;
+}
