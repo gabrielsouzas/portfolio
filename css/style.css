@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -18,6 +20,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    height: 35px;
 }
 
 .menu ul{
@@ -26,11 +29,12 @@ body {
     justify-content: end;
     list-style: none;
     gap: 40px;
-    padding: 25px;
-    font-weight: bold;
+    padding: 45px;
+    font-weight: 800;
+    font-size: 1.2em;
     align-items: center;
     height: 100%;
-    background-color: rgb(92, 92, 92);
+    background-image: linear-gradient(to right, rgb(14, 152, 233), rgb(54, 148, 235), rgb(15, 84, 189));
 }
 
 .menu a {
@@ -40,7 +44,7 @@ body {
 /* Seções */
 section {
     height: 100vh;
-    padding: 25px;
+    padding: 25px
 }
 
 /* Seção Inicio */
@@ -49,6 +53,8 @@ section {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-image: linear-gradient(90deg, darkslategray, rgb(60, 145, 145), rgb(18, 78, 78));
+    color: white;
 }
 
 .nome-prof {
@@ -57,7 +63,9 @@ section {
 
 .nome-prof h1 {
     padding-bottom: 30px;
-    font-size: 2.5em;
+    font-size: 3.5em;
+    font-weight: 800;
+    font-style: italic;
 }
 
 .nome-prof h2 {
