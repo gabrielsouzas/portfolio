@@ -23,8 +23,9 @@ body {
 .menu ul{
     display: flex;
     flex-direction: row;
+    justify-content: end;
     list-style: none;
-    gap: 10px;
+    gap: 40px;
     padding: 25px;
     font-weight: bold;
     align-items: center;
@@ -34,4 +35,40 @@ body {
 
 .menu a {
     color: white;
+}
+
+/* Seções */
+section {
+    height: 100vh;
+}
+
+/* Seção Inicio */
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nome-prof {
+    padding: 25px;
+    width: 50vw;
+}
+
+.nome-prof h1 {
+    padding-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.nome-prof h2 {
+    font-size: 1.2em;
+}
+
+.apresentacao {
+    padding: 25px;
+    width: 50vw;
+}
+
+.apresentacao p {
+    padding: 10px;
 }
