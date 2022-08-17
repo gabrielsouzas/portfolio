@@ -40,6 +40,7 @@ body {
 /* Seções */
 section {
     height: 100vh;
+    padding: 25px;
 }
 
 /* Seção Inicio */
@@ -51,7 +52,6 @@ section {
 }
 
 .nome-prof {
-    padding: 25px;
     width: 50vw;
 }
 
@@ -71,4 +71,42 @@ section {
 
 .apresentacao p {
     padding: 10px;
+}
+
+/* Seção Formação Acadêmica */
+
+#estudo {
+    background-color: aquamarine;
+}
+
+#estudo h1, p {
+    padding-bottom: 25px;
+}
+
+#estudo div {
+    padding-bottom: 15px;
+}
+
+.icones {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#estudo img {
+    width: 5%;
+    height: 5%;
+    margin-right: 60px;
+}
+
+#estudo img:hover {
+    width: 6%;
+    height: 6%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#eclipse {
+    width: 180px;
+    height: 43px;
 }
