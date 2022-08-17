@@ -109,4 +109,24 @@ section {
 #eclipse {
     width: 180px;
     height: 43px;
+    padding-bottom: 22px;
+}
+
+/* Seção Projetos Acadêmicos */
+
+#academico {
+    background-color: rgba(241, 83, 83, 0.5);
+}
+
+#academico h1 {
+    padding-bottom: 25px;
+}
+
+#academico div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#academico p {
+    padding: 3px;
 }
