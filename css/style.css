@@ -130,3 +130,28 @@ section {
 #academico p {
     padding: 3px;
 }
+
+/* Seção Experiencia Profissional */
+
+#experiencia {
+    background-color: rgba(91, 136, 233, 0.5);
+}
+
+#experiencia h1 {
+    padding-bottom: 25px;
+}
+
+#experiencia h5 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#experiencia ul {
+    padding-left: 25px;
+    list-style: "\27A4";
+}
+
+#experiencia li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
