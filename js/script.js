@@ -9,7 +9,7 @@ menuItens.forEach(item => {
 
 function scrollToIdOnClick(event) {
     event.preventDefault();
-    const to = getScrollTopByHref(event.target) - 80
+    const to = getScrollTopByHref(event.target) - 40
     scrollToPosition(to)
 }
 
@@ -23,4 +23,22 @@ function scrollToPosition(to) {
         top: to,
         behavior: "smooth",
     })
+}
+
+/* Estrelas */
+
+const star = document.querySelector('.stars')
+
+var shadowConstruct = ""
+for (let i = 0; i < 10; i++) {
+    shadowConstruct += `${getRandom(500)}px ${getRandom(500)}px white,`
+}
+
+const shadowFinal = shadowConstruct.substring(0, shadowConstruct.length - 1);
+
+star.style.boxShadow = shadowFinal
+
+/* Gera um número aleatório inteiro passando o valor máximo */
+function getRandom(max) {
+    return Math.floor(Math.random() * max + 1)
 }
