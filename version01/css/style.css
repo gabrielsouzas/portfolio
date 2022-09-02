@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'Wonder Night';
+    src: url('../fonts/wonder-night-wonder-night-400.ttf') format('truetype');
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /*padding-top: 80px;*/
+    background: #2c3e50;
+}
+
+/* Menu */
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    width: 30px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Div que faz faz a animação */
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #1abc9c;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+/* Posicionamentos da animação */
+
+.menu a:nth-child(1) {
+    width: 100px;
+}
+
+.menu .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+
+.menu a:nth-child(2) {
+    width: 110px;
+}
+
+.menu a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+}
+
+.menu a:nth-child(3) {
+    width: 100px;
+}
+
+.menu a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+}
+
+.menu a:nth-child(4) {
+    width: 160px;
+}
+
+.menu a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+}
+
+.menu a:nth-child(5) {
+    width: 120px;
+}
+
+.menu a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 470px;
+}
+
+/* Seções */
+section {
+    height: 100vh;
+    padding: 25px
+}
+
+/* Seção Inicio */
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #2c3e50;
+    background: linear-gradient(0, #537496, #243241);
+    /*background-image: linear-gradient(90deg, darkslategray, rgb(60, 145, 145), rgb(18, 78, 78));*/
+    color: white;
+}
+
+.nome-prof {
+    width: 50vw;
+}
+
+.nome-prof h1 {
+    padding-bottom: 30px;
+    font-size: 4.5em;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Wonder Night';
+}
+
+.nome-prof h2 {
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Wonder Night';
+}
+
+.apresentacao {
+    padding: 25px;
+    width: 50vw;
+}
+
+.apresentacao p {
+    padding: 10px;
+}
+
+/* Seção Formação Acadêmica */
+
+#estudo {
+    background-color: #405a74;
+}
+
+#estudo h1, p {
+    padding-bottom: 25px;
+}
+
+#estudo div {
+    padding-bottom: 15px;
+}
+
+.icones {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#estudo img {
+    width: 5%;
+    height: 5%;
+    margin-right: 60px;
+}
+
+#estudo img:hover {
+    width: 6%;
+    height: 6%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#eclipse {
+    width: 180px;
+    height: 43px;
+    padding-bottom: 22px;
+}
+
+/* Seção Projetos Acadêmicos */
+
+#academico {
+    background-color: #2c3e50;
+}
+
+#academico h1 {
+    padding-bottom: 25px;
+}
+
+#academico div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#academico p {
+    padding: 3px;
+}
+
+/* Seção Experiencia Profissional */
+
+#experiencia {
+    background-color: #405a74;
+}
+
+#experiencia h1 {
+    padding-bottom: 25px;
+}
+
+#experiencia h5 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#experiencia ul {
+    padding-left: 25px;
+    list-style: "\27A4";
+}
+
+#experiencia li {
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+/* Seção Contato */
+
+#contato {
+    background: #2c3e50;
+}
+
+/* Estrelas */
+
+.stars{
+    position: relative;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	box-shadow: 
+    2px -230px white,
+    32px -200px white,
+    62px -170px white,
+    92px -140px white,
+    122px -110px white,
+    152px -80px white,
+    182px -50px white,
+    212px -20px white;
+    /*animation: anim-stars 10s linear infinite;*/
+}
+/*
+.stars::after{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+      100px 80px white,
+      80px 120px white,
+      300px 20px white,
+      250px 130px white,
+      200px 50px white,
+      150px 100px white,
+      320px 100px white;
+  }*/
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+

@@ -4,150 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal - Gabriel Souza</title>
+    <!-- Link CSS customizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script defer src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Link BoxIcons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <title>Portfólio</title>
+    <!-- Fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Link JS -->
+    <script defer type="text/javascript" src="js/script.js"></script>
+
 </head>
 <body>
+    
     <header>
-        <nav class="menu">
-            <!--<ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#estudo">Formação acadêmica</a></li>
-                <li><a href="#academico">Trabalhos acadêmicos</a></li>
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>-->
-            <a href="#inicio">Inicio</a>
-            <a href="#estudo">Formação</a>
-            <a href="#academico">Trabalhos</a>
-            <a href="#experiencia">Experiência</a>
-            <a href="#contato">Contato</a>
-            <div class="animation start-home"></div>
-        </nav>
+        
+        <a href="#" class="logo"><!-- <img src="img/logo.png" alt="Logo">  --></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#port">Meu Portfólio</a></li>
+            <li><a href="#conta">Contato</a></li>
+        </ul>
     </header>
-    <main>
-        <section id="inicio">
-            <div class="stars"></div>
-            <div class="nome-prof">
-                <h1>Gabriel Souza</h1>
-                <h2>Programador de sistemas de computador</h2>
-            </div>
-            <div class="apresentacao">
-                <p>Olá, bem vindo ao meu portfólio!</p>
-                <p>Tenho 31 anos e moro em Assis/SP.</p>
-                <p>
-                    Sou formado em Ciências da Computação e trabalho com desenvolvimento na linguagem de programação Java há mais de 6 anos.
-                </p>
-                <p>
-                    Atualmente estou em busca de novos desafios através dos estudos em novas tecnologias.
-                </p>
-            </div>
-        </section>
 
-        <section id="estudo">
-            <h1>Formação acadêmica</h1>
-            <p>
-                Me formei em Ciências da Computação na FEMA - Fundação Educacional do Município de Assis entre janeiro de 2011 e dezembro de 2015.
-                Através dessa formação desenvolvi minhas primeiras habilidades em Algoritmos, Lógica de Programação, Banco de Dados, Linguagem de Programação, entre outras.
-                Após quatro anos de aprendizagem Lógico-matemática percebi que também consegui desenvolver meu conhecimento Intrapessoal e Interpessoal, graças aos professores incríveis e aos meus colegas de classe, que também cresciam junto comigo.
-                Tecnicamente posso dizer que tenho as seguintes tecnologias ao meu lado desde então:
-            </p>
-                
-            <div>
-                <!--<h4>Linguagens de Programação</h4>-->
-                <div class="icones">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-                  
-                  
+    <!--home-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h4>Olá</h4>
+            <h1>Eu sou Gabriel <br> So<span>uza</span></h1>
+            <h3>Desenvolvedor de Software</h3>
+            <a href="#" class="btn">Fale Comigo</a>
+        </div>
+    </section>
+
+    <!--sobre-->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <!-- <img src="img/sobre.png">-->
+        </div>
+
+        <div class="sobre-text">
+            <h2>Sobre Mim</h2>
+            <h4>Olá, agora vou falar um pouco sobre mim</h4>
+            <p>Tenho 31 anos e moro em Assis/SP.
+                Sou formado em Ciências da Computação e trabalho com desenvolvimento na linguagem de programação Java há mais de 6 anos.
+                Atualmente estou em busca de novos desafios através dos estudos em novas tecnologias.</p>
+            <div class="sobre-gri">
+                <div class="sobre-in">
+                    <h5>1. Resolver Problemas</h5>
+                </div>
+
+                <div class="sobre-in">
+                    <h5>2. Idéias Criativas</h5>
+                </div>
+
+                <div class="sobre-in">
+                    <h5>3. Pesquisa</h5>
+                </div>
+
+                <div class="sobre-in">
+                    <h5>4. Alta Qualidade</h5>
                 </div>
             </div>
-            <div>
-                <!--<h4>Banco de Dados</h4>-->
-                <div class="icones">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40" /> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="40" height="40" /> 
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" width="40" height="40" />
-                </div>
-            </div>
-            <div>
-                <!--<h4>IDE</h4>-->
-                <div class="icones">   
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original-wordmark.svg"  width="40" height="40" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="40" height="40" /> <img id="eclipse" src="img/eclipse_ide_logo.png" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
-                  
-                </div>
-            </div>
-            <div>
-                <!--<h4>Outras Tecnologias</h4>-->
-                <div class="icones">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
-                </div>
-            </div>
-        </section>
-            
-        <section id="academico">
-            <h1>Projetos Acadêmicos</h1>
-            <h4>
-                Uso de redes neurais para reconhecimento de padrões - Conceitos de redes
-                neurais e inteligência artificial aplicados ao desenvolvimento de aplicações para identificação de padrões
-            </h4>
-            
-            <div>
-                <p><strong>Período:</strong> Setembro de 2015 até outubro de 2015</p>
-                <p><strong>Participantes:</strong> Gabriel Souza da Silva, Guilherme de Cleva Farto (TOTVS).</p>
-                <p><strong>Resumo:</strong> Artigo que teve como objetivo explorar os fundamentos de RNAs e, a partir dessa contextualização, implementar uma rede neural artificial para reconhecer padrões de sequencias de DNA.</p>
-                <p><strong>Download:</strong><a href="https://github.com/gabrielsouzas/artigos-tcc/raw/main/Artigo%20ES%20-%20Redes%20Neurais/Artigo%20ES%20-%20Redes%20Neurais%20(Guilherme%20Farto%20e%20Gabriel%20Souza).pdf"> GitHub</a>.</p>
-            </div>
-            
-            <h4>
-                Redes Neurais Artificiais para a Identificação de Objetos Contidos em Imagens
-            </h4>
-            <div>
-                <p><strong>Período:</strong> Novembro de 2014 até outubro de 2015</p>
-                <p><strong>Autor:</strong> Gabriel Souza da Silva</p>
-                <p><strong>Orientador:</strong> Prof. Dr. Luiz Carlos Begosso</p>
-                <p><strong>Resumo:</strong> Trabalho de Conclusão de Curso apresentado ao Instituto Municipal de Ensino Superior de
-                Assis, como requisito do Curso de Graduação em Ciência da Computação. Seu objetivo foi desenvolver
-                um estudo sobre as redes neurais artificias e, a partir desse estudo, implementar uma rede neural
-                artificial que reconheça um determinado objeto em uma imagem.</p>
-                <p><strong>Download:</strong> <a href="https://cepein.femanet.com.br/BDigital/arqTccs/1211330154.pdf" target="_blank">Site da FEMA</a> ou <a href="https://github.com/gabrielsouzas/artigos-tcc/raw/main/TCC/TCC%20-%20REDES%20NEURAIS%20ARTIFICIAIS%20PARA%20A%20IDENTIFICA%C3%87%C3%83O%20DE%20OBJETOS%20CONTIDOS%20EM%20IMAGENS.pdf">GitHub</a></p>
-            </div>
-        </section>
+            <a href="#" class="btn">Fale Comigo</a>
+        </div>
+    </section>
 
-        <section id="experiencia">
-            <h1>Experiência Profissional</h1>
+    <!--experiência-->
+    <section class="experiencia" id="experiencia">
+        <div class="main-text">
+            <h2>Minha Experiência Profissional</h2>
+            <h4>Texto aqui, Texto Aqui</h4>
+        </div>
 
-            <h4>Programador de sistemas de computador</h4>
-            <h5>Ricardo Pessoa Cardoso e Outros, Assis-SP</h5>
-            <ul>
-                <li>
-                    Responsável pelo desenvolvimento das aplicações de gerenciamento da
-                    empresa, utilizando a linguagem Java e o banco de dados PosgreSQL, dentre
-                    elas estão: Sistema de Controle de Operações do Campo, Sistema de Controle
-                    de Bovinos, Sistema de Controle de Compras/Cotações, (também desenvolvido
-                    parcialmente para Web com Spring Boot, HTML5 e CSS3);
-                </li>
-                <li>Manutenção e atualização do sistema Datasul (TOTVS).</li>
-                <li>
-                    Lançamento de registros nos sistemas, levantando as informações necessárias
-                    para manter o banco de dados atualizado;
-                </li>
-                <li>
-                    Instalação, atualização, configuração e desinstalação de softwares nos
-                    computadores utilizados pela equipe, garantindo a segurança de todos e a
-                    disponibilidade dos sistemas em tempo hábil.
-                </li>
-            </ul>
-        </section>
+        <div class="experiencia-content">
+            <div class="box">
+                <img src="img/expe1.png" alt="Experiência 1">
+                <h3>Desenvolvimento Java</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, repellendus odio cumque dolores eum illo voluptates adipisci corrupti officia omnis, sapiente eligendi ratione iusto, quasi laudantium earum explicabo! Libero, deleniti?</p>
+            </div>
+        </div>
+    </section>
 
-    </main>
-    <footer>
-        <section id="contato">
-            <h1>Contato</h1>
-            
-        </section>
-    </footer>
 </body>
 </html>
