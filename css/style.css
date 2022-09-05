@@ -136,6 +136,8 @@ header.sticky {
     transition: .3s;
 }
 
+/*** SOBRE ***/
+
 .sobre {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -179,4 +181,78 @@ header.sticky {
     height: auto;
     width: 100%;
     max-width: 460px;
+}
+
+/*** EXPERIENCIA ***/
+
+.main-text {
+    text-align: center;
+}
+
+.main-text h2 {
+    font-size: var(--h2-font);
+    margin-bottom: 10px;
+}
+
+.main-text h4 {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.experiencia-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.box {
+    padding: 45px;
+    background: #12141C;
+    border-top: 5px solid transparent;
+    border-radius: 0.5rem;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+
+.box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+    transition: all .40s ease;
+}
+
+.box p {
+    color: var(--second-color);
+    font-size: var(--p-font);
+    line-height: 30px;
+}
+
+.box:hover {
+    transform: scale(1.01) translateY(-5px);
+    border-top: 5px solid var(--main-color);
+}
+
+.box:hover h3 {
+    color: var(--main-color);
+}
+
+/*** PORTFOLIO ***/
+
+.portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.row img {
+    height: auto;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
 }
