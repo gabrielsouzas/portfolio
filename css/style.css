@@ -89,7 +89,7 @@ section {
 }
 
 /* IMAGEM PERFIL */
-.home-img {
+.home-img img {
     max-width: 100%;
     width: 600px;
     height: auto;
@@ -413,7 +413,7 @@ form .enviar-btn:hover {
         padding: 25px 3%;
     }
     section {
-        padding: 50px 3%;
+        padding: 85px 3%;
     }
     :root {
         --big-font: 4rem;
@@ -427,9 +427,10 @@ form .enviar-btn:hover {
         --h2-font: 1.2rem;
         --p-font: 0.9rem;
     }
+    /* Com isso o SOBRE fica muito perto do HOME
     .home {
         height: 70vh;
-    }
+    }*/
 }
 
 @media (max-width: 830px) {
@@ -474,7 +475,7 @@ form .enviar-btn:hover {
     .home-text p {
         max-width: 100%;
     }
-    .home-img {
+    .home-img img {
         max-width: 100%;
         width: 490px;
         height: auto;
