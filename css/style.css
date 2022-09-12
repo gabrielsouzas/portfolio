@@ -459,7 +459,7 @@ form .enviar-btn:hover {
         margin: 1rem;
         display: block;
     }
-    .navbar.active {
+    .active {
         top: 100%;
     }
 }
