@@ -168,13 +168,38 @@ section {
     height: auto;
 }*/
 
-
-
+/*
 .sobre-img img {
     max-width: 100%;
     width: 580px;
     height: auto;
     border-radius: 15px;
+}*/
+
+.sobre-img {
+    max-width: 100%;
+    width: 580px;
+    height: 500px;
+    position: relative;
+}
+
+.sobre-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    position: absolute;
+}
+
+#img01 {
+    left: 5px;
+    top: 5px;
+    z-index: 2;
+}
+
+#img02 {
+    left: 230px;
+    top: 150px;
+    z-index: 1;
 }
 
 .sobre-text h3{
