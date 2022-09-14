@@ -11,7 +11,7 @@
 
 :root {
     --bg-color: #10101a;
-    --main-color: #2fbf71;
+    --main-color: #2f91bf;/*#2fbf71;*/
     --2nd-main-color: #ffffffcc;
     --text-color: #fff;
     --big-font: 5rem;
@@ -57,6 +57,7 @@ span {
     font-size: 1rem;
     padding: 10px 20px;
     font-weight: 500;
+    border-radius: 3px;
 }
 
 .navbar a:hover {
@@ -91,8 +92,10 @@ section {
 /* IMAGEM PERFIL */
 .home-img img {
     max-width: 100%;
-    width: 600px;
+    width: 400px;
     height: auto;
+    background-color: var(--main-color);
+    border-radius: 100%;
 }
 
 .home-text h5 {
@@ -102,8 +105,9 @@ section {
     margin: 0 0 20px;
 }
 
+/* NOME */
 .home-text h1 {
-    font-size: var(--big-font);
+    font-size: 4rem;/*var(--big-font);*/
     color: var(--text-color);
     font-weight: 700;
     line-height: 1;
@@ -157,10 +161,20 @@ section {
     align-items: center;
 }
 
+/*
 .sobre-img img {
     max-width: 100%;
     width: 580px;
     height: auto;
+}*/
+
+
+
+.sobre-img img {
+    max-width: 100%;
+    width: 580px;
+    height: auto;
+    border-radius: 15px;
 }
 
 .sobre-text h3{
