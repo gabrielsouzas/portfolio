@@ -24,6 +24,10 @@ body {
     color: var(--text-color);
 }
 
+html {
+    width: 100%;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -184,7 +188,7 @@ section {
 }
 
 .sobre-img img {
-    width: 300px;
+    width: 230px;
     height: auto;
     border-radius: 15px;
     position: absolute;
@@ -505,7 +509,7 @@ form .enviar-btn:hover {
 
 @media (max-width: 795px) {
     section {
-        width: 118%;
+        /*width: 118%;*/
     }
     .home {
         grid-template-columns: 1fr;
@@ -520,7 +524,7 @@ form .enviar-btn:hover {
     }
     .home-img img {
         max-width: 100%;
-        width: 490px;
+        width: 360px;
         height: auto;
     }
     .sobre {
@@ -537,6 +541,6 @@ form .enviar-btn:hover {
         order: 2;
     }
     .cta {
-        width: 118%;
+        /*width: 118%;*/
     }
 }
