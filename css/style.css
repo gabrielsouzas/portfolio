@@ -166,6 +166,7 @@ section {
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 5rem;
     align-items: center;
+    
 }
 
 /*
@@ -188,6 +189,7 @@ section {
     width: 580px;
     height: 500px;
     position: relative;
+    width: 100vw;
 }
 
 .sobre-img img {
@@ -518,6 +520,7 @@ form .enviar-btn:hover {
         position: fixed;*/
     }
     section {
+        overflow: auto;
         /*width: 118%;*/
     }
     .home {
@@ -540,6 +543,9 @@ form .enviar-btn:hover {
         grid-template-columns: 1fr;
         text-align: center;
     }
+    .sobre-text {
+        width: 100vw;
+    }
     .sobre-text h2 {
         max-width: 100%;
     }
@@ -548,6 +554,16 @@ form .enviar-btn:hover {
     }
     .sobre-img {
         order: 2;
+        
+    }
+    .sobre-img img {
+        width: 180px;
+    }
+    #img02 {
+        left: 150px;
+    }
+    .box {
+        width: 100vw;
     }
     .cta {
         /*width: 118%;*/
