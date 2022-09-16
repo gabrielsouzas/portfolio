@@ -186,10 +186,9 @@ section {
 
 .sobre-img {
     max-width: 100%;
-    width: 580px;
+    width: 480px;
     height: 500px;
     position: relative;
-    width: 100vw;
 }
 
 .sobre-img img {
@@ -477,7 +476,7 @@ form .enviar-btn:hover {
     }
     /* Com isso o SOBRE fica muito perto do HOME*/
     .home {
-        height: 70vh;
+        /*height: 70vh;*/
     }
 }
 
@@ -554,7 +553,6 @@ form .enviar-btn:hover {
     }
     .sobre-img {
         order: 2;
-        
     }
     .sobre-img img {
         width: 180px;
@@ -562,7 +560,7 @@ form .enviar-btn:hover {
     #img02 {
         left: 150px;
     }
-    .box {
+    div.box {
         width: 100vw;
     }
     .cta {
