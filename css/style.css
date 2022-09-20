@@ -166,24 +166,22 @@ section {
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 5rem;
     align-items: center;
-    
 }
 
-/*
 .sobre-img img {
     max-width: 100%;
     width: 580px;
     height: auto;
-}*/
+}
 
-/*
 .sobre-img img {
     max-width: 100%;
     width: 580px;
     height: auto;
     border-radius: 15px;
-}*/
+}
 
+/* CONFIGURAÇÕES COM DUAS IMAGENS
 .sobre-img {
     max-width: 100%;
     width: 480px;
@@ -205,10 +203,11 @@ section {
 }
 
 #img02 {
-    left: 230px;
+    left: 240px;
     top: 150px;
     z-index: 1;
 }
+*/
 
 .sobre-text h3{
     color: var(--text-color);
@@ -539,8 +538,18 @@ form .enviar-btn:hover {
         height: auto;
     }
     .sobre {
-        grid-template-columns: 1fr;
+        /*grid-template-columns: 1fr;
+        text-align: center;*/
+        /*overflow: hidden;*/
+
+        /* Nova*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
+        gap: 5rem;
+        overflow: hidden;
     }
     .sobre-text {
         width: 100vw;
@@ -553,13 +562,15 @@ form .enviar-btn:hover {
     }
     .sobre-img {
         order: 2;
+        width: 100vw;
     }
+    /* conf duas imagens
     .sobre-img img {
         width: 180px;
     }
     #img02 {
-        left: 150px;
-    }
+        left: 160px;
+    }*/
     div.box {
         width: 100vw;
     }
