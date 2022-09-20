@@ -574,7 +574,16 @@ form .enviar-btn:hover {
     div.box {
         width: 100vw;
     }
-    .cta {
-        /*width: 118%;*/
+    .row {
+        padding: 45px 25px;
+    }
+    .row i {
+        font-size: 3rem;
+    }
+    .row h3 {
+        font-size: 1.15rem;
+    }
+    .row p {
+        font-size: 14px;
     }
 }
