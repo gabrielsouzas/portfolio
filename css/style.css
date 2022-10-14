@@ -572,6 +572,8 @@ form .enviar-btn:hover {
     }
     .sobre-text p {
         max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .sobre-img {
         order: 2;
@@ -589,6 +591,7 @@ form .enviar-btn:hover {
     }*/
     .row {
         padding: 45px 25px;
+        margin-right: 10px;
     }
     .row h3 {
         font-size: 1.15rem;
@@ -596,7 +599,15 @@ form .enviar-btn:hover {
     .row p {
         font-size: 14px;
     }
+    .cta h4, h2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .curriculo {
         overflow: hidden;
     }
+    .curriculo .box {
+        margin-right: 50px;
+    }
+    
 }
