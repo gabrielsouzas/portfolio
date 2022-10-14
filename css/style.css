@@ -103,6 +103,7 @@ section {
     height: auto;
     background-color: var(--main-color);
     border-radius: 100%;
+    z-index: -10003;
 }
 
 .home-text h5 {
