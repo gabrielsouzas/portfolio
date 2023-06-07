@@ -9,6 +9,11 @@
     scroll-padding-top: 2rem;
 }
 
+@font-face {
+    font-family: FFF TUSJ;
+    src: url(../fontes/FFF_Tusj.ttf)
+  }
+
 :root {
     --bg-color: #10101a;
     --main-color: #2f91bf;/*#2fbf71;*/
@@ -283,10 +288,10 @@ section {
 
 .row {
     background: #0b0b13;
-    padding: 60px 35px;
+    padding: 40px 25px;
     border-radius: 5px;
     cursor: pointer;
-    height: 700px;
+    height: 960px;
     transition: all .40s;
 }
 
@@ -300,7 +305,7 @@ section {
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 20px;
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .row h6 {
@@ -315,10 +320,56 @@ section {
     font-size: 18px;
     color: var(--2nd-main-color);
     line-height: 30px;
+    text-align: justify;
 }
 
-.row img {
-    margin: 30px 0 0 10px;
+.row .img-projeto {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.row ul {
+    margin-top: 20px;
+    padding-left: 15px;
+    color: var(--2nd-main-color);
+    font-size: 1rem;
+}
+
+.row li {
+    list-style: inside;
+    padding-bottom: 5px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons > img {
+    /*margin: 30px 0 0 10px;*/
+}
+
+figure {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+img.icon {
+    width: 48px;
+}
+
+figcaption {
+    font-weight: 100;
+}
+
+#ireport {
+    font-family: FFF TUSJ;
 }
 
 .row:hover {
