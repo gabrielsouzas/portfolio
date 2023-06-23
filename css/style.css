@@ -287,6 +287,10 @@ section {
 }
 
 .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background: #0b0b13;
     padding: 40px 25px;
     border-radius: 5px;
@@ -348,6 +352,7 @@ section {
     gap: 8px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .icons > img {
