@@ -91,9 +91,9 @@ section {
     padding: 120px 14%;
 }
 
-.home {
+.home-apresentacao {
     position: relative;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -143,6 +143,27 @@ section {
     color: var(--2nd-main-color);
 }
 
+.home-habilidades {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.home-habilidades figure {
+    width: 50px;
+    height: 50px;
+}
+
+.home-habilidades img.icon {
+    width: 35px;
+}
+
+.home-habilidades figcaption {
+    font-weight: 100;
+    font-size: 0.7rem;
+}
 
 /* BOTÃO CURRICULO */
 .btn {
@@ -548,7 +569,7 @@ form .enviar-btn:hover {
         --p-font: 0.9rem;
     }
     /* Com isso o SOBRE fica muito perto do HOME*/
-    .home {
+    .home-apresentacao {
         /*height: 70vh;*/
     }
 }
@@ -595,7 +616,7 @@ form .enviar-btn:hover {
         overflow: auto;
         /*width: 118%;*/
     }
-    .home {
+    .home-apresentacao {
         grid-template-columns: 1fr;
         grid-gap: 2rem;
         text-align: center;

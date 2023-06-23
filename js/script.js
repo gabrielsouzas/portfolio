@@ -19,6 +19,8 @@ const sr = ScrollReveal ({
     reset: true
 })
 
-sr.reveal('.home-text', {delay:200, origin:'top'})
-sr.reveal('.home-img', {delay:400, origin:'top'})
+sr.reveal('.home', {delay:300, origin:'top'})
+//sr.reveal('.home-text', {delay:200, origin:'top'})
+//sr.reveal('.home-habilidades', {delay:200, origin:'top'})
+//sr.reveal('.home-img', {delay:400, origin:'top'})
 sr.reveal('.sobre, .servicos, .cta, .curriculo, .contato, .copyright', {delay:200, origin:'top'})
