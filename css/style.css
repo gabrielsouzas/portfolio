@@ -367,6 +367,11 @@ section {
     padding-bottom: 5px;
 }
 
+.row a {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
 .icons {
     display: flex;
     flex-direction: row;
