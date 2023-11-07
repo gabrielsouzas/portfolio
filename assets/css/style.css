@@ -66,7 +66,7 @@
 
 html,
 body {
-  width: 100vw;
+  /*width: 100vw;*/
   height: 100vh;
 }
 
@@ -108,11 +108,11 @@ span {
   font-size: 1rem;
   padding: 10px 20px;
   font-weight: 500;
-  border-radius: 3px;
 }
 
 .navbar a:hover {
   background: var(--main-color);
+  color: var(--white-color);
   transition: 0.3s;
 }
 
@@ -131,7 +131,7 @@ section {
 }
 
 .home-apresentacao {
-  position: relative;
+  /*position: relative;*/
   height: 70vh;
   width: 100%;
   display: grid;
@@ -143,11 +143,11 @@ section {
 /* IMAGEM PERFIL */
 .home-img img {
   max-width: 100%;
-  width: 400px;
+  /*width: 400px;*/
   height: auto;
   background-color: var(--main-color);
   border-radius: 100%;
-  z-index: -10003;
+  /*z-index: -10003;*/
 }
 
 .home-text h5 {
@@ -351,8 +351,15 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
   grid-gap: 2rem;
-  align-items: center;
+  /*align-items: center;*/
   margin-top: 4.4rem;
+
+  /*margin-top: 4.4rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;*/
 }
 
 .row {
@@ -360,12 +367,11 @@ section {
   flex-direction: column;
   justify-content: space-between;
 
-  background: #0b0b13;
-  padding: 40px 25px;
-  border-radius: 5px;
+  background: var(--container-color);
+  padding: 25px 20px;
   cursor: pointer;
-  height: 1050px;
   transition: all 0.4s;
+  /*width: 440px;*/
 }
 
 .row i {
@@ -390,23 +396,22 @@ section {
 }
 
 .row p {
-  font-size: 18px;
-  color: var(--2nd-main-color);
-  line-height: 30px;
+  font-size: 15px;
+  color: var(--text-color);
+  line-height: 23px;
   text-align: justify;
 }
 
 .row .img-projeto {
   width: 100%;
-  border-radius: 8px;
   margin-bottom: 20px;
 }
 
 .row ul {
   margin-top: 20px;
   padding-left: 15px;
-  color: var(--2nd-main-color);
-  font-size: 1rem;
+  color: var(--text-color);
+  font-size: 0.95rem;
 }
 
 .row li {
@@ -456,10 +461,10 @@ figcaption {
   box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
 }
 
-/* SECTION CONTATO */
+/* SECTION CTA */
 
 .cta {
-  background: #0b0b13;
+  background: var(--container-color);
   width: 100%;
   padding: 150px 0;
   text-align: center;
@@ -486,12 +491,12 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(390px, auto));
   grid-gap: 3rem;
-  align-items: center;
+  /*align-items: center;*/
   margin-top: 4.4rem;
 }
 
 .box {
-  background: #0b0b13;
+  background: var(--container-color);
   padding: 40px 30px;
   border-radius: 5px;
   cursor: pointer;
@@ -518,13 +523,13 @@ figcaption {
   font-weight: 300;
   margin-bottom: 1.2rem;
   line-height: 1.8rem;
-  color: var(--2nd-main-color);
+  color: var(--text-color);
 }
 
 .box h5 {
   font-size: 14px;
   font-weight: 500;
-  color: var(--2nd-main-color);
+  color: var(--text-color);
 }
 
 .box:hover {
@@ -552,7 +557,7 @@ form textarea {
   padding: 20px;
   border: none;
   outline: none;
-  background: #0b0b13;
+  background: var(--container-color);
   color: var(--text-color);
   margin-bottom: 0.5rem;
   border-radius: 5px;
@@ -594,8 +599,8 @@ form .enviar-btn:hover {
 .copyright {
   text-align: center;
   padding: 30px;
-  color: var(--2nd-main-color);
-  background: #0b0b13;
+  color: var(--text-color);
+  background: var(--container-color);
   margin-top: 3rem;
   line-height: 1.8rem;
 }
@@ -641,7 +646,7 @@ form .enviar-btn:hover {
     right: 0;
     display: flex;
     flex-direction: column;
-    background: #0b0b13;
+    background: var(--container-color);
     box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
     text-align: left;
     transition: 0.2s ease;
@@ -674,8 +679,11 @@ form .enviar-btn:hover {
     grid-gap: 2rem;
     text-align: center;
     margin-top: 80px;
-    height: 100vh;
+    height: 100%;
     /*width: 118%;*/
+  }
+  .home-habilidades {
+    margin-top: 4.4rem;
   }
   .home-text p {
     max-width: 100%;
