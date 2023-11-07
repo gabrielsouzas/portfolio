@@ -180,6 +180,7 @@ section {
   line-height: 2rem;
   margin-bottom: 1.5rem;
   color: var(--text-color);
+  text-align: justify;
 }
 
 .home-habilidades {
@@ -308,6 +309,7 @@ section {
   margin-bottom: 1.5rem;
   line-height: 1.8rem;
   color: var(--text-color);
+  text-align: justify;
 }
 
 .count {
@@ -524,6 +526,7 @@ figcaption {
   margin-bottom: 1.2rem;
   line-height: 1.8rem;
   color: var(--text-color);
+  text-align: justify;
 }
 
 .box h5 {
